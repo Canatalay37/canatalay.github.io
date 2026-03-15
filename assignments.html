@@ -122,7 +122,7 @@
                 technical standards, public policy, and community collaboration related to Internet
                 development. In other words, the Internet Society was established to help protect
                 the future of the Internet and make sure it continues to serve society in a positive
-                and accessible way. :contentReference[oaicite:0]{index=0}
+                and accessible way.
             </p>
 
             <h3>b) Determine which local chapter is closest to you. Visit its website. List the website’s URL and an activity or service that the chapter provides.</h3>
@@ -131,8 +131,7 @@
                 Since I study at Near East University in Northern Cyprus, the closest Internet Society
                 chapter is most likely the <strong>Turkey Chapter</strong>. This is a geographic inference
                 based on proximity, since Northern Cyprus does not appear to have its own separate chapter
-                listed in the sources I found. The Internet Society does list Turkey as an official chapter. :contentReference[oaicite:1]{index=1}
-            </p>
+                listed in the sources I found. The Internet Society does list Turkey as an official chapter. 
 
             <p>
                 <span class="label">Chapter URL:</span><br>
@@ -144,7 +143,7 @@
                 A strong example connected with the Turkey Chapter is support for projects that promote
                 digital inclusion and Internet awareness. One Internet Society project in Turkey highlighted
                 coding education for girls through the “Coding Sisters” initiative, showing how the chapter’s
-                local ecosystem supports Internet education, digital skills, and community empowerment. :contentReference[oaicite:2]{index=2}
+                local ecosystem supports Internet education, digital skills, and community empowerment.
             </p>
 
             <h3>c) How can you join the Internet Society? What does it cost to join? Would you recommend that a beginning Web developer join the Internet Society? Why or why not?</h3>
@@ -152,7 +151,7 @@
                 <span class="label">Answer:</span>
                 A person can join the Internet Society by becoming an individual member through its official
                 website. The organization’s membership page indicates that individuals can become members, and
-                the current public membership path is presented as a free individual membership option. :contentReference[oaicite:3]{index=3}
+                the current public membership path is presented as a free individual membership option.
             </p>
 
             <p>
@@ -162,7 +161,7 @@
 
             <p>
                 <span class="label">Cost:</span>
-                Individual membership is free. :contentReference[oaicite:4]{index=4}
+                Individual membership is free.
             </p>
 
             <p>
@@ -174,80 +173,102 @@
                 awareness of security, accessibility, policy, and Internet infrastructure. Joining the
                 Internet Society can therefore help a new developer become more informed, responsible, and
                 professionally prepared. This recommendation is my own conclusion based on the organization’s
-                mission, learning opportunities, and membership resources. :contentReference[oaicite:5]{index=5}
+                mission, learning opportunities, and membership resources. 
             </p>
         </div>
 
         <div class="assignment-card">
-            <h2>HW3 Q1 and Q2 HTML &amp; CSS Code Fixes</h2>
+    <h2>HW3 Q1 and Q2 HTML &amp; CSS Code Fixes</h2>
 
-            <h3>1. Missing Code Completion</h3>
-            <p>
-                <span class="label">Task:</span>
-                Fill in the missing code so that the background and text colors have good contrast,
-                and the header area uses Arial.
-            </p>
+    <h3>1. Missing Code Completion</h3>
 
-            <p>
-                <span class="label">Solution:</span>
-                The answer for this section will be added in the same format, with an explanation
-                paragraph followed by a formatted code block.
-            </p>
+    <p>
+        <span class="label">Task:</span>
+        Fill in the missing code so that the background and text colors have good contrast,
+        and the header area uses Arial.
+    </p>
 
-            <div class="code-box">
+    <p>
+        <span class="label">Solution:</span>
+        Since the background color is a dark blue (<code>#0066CC</code>), the text color is set
+        to white (<code>#FFFFFF</code>) for strong contrast and better readability. The header font
+        is set to Arial. In addition, the missing HTML tags are completed correctly so the page
+        structure becomes valid.
+    </p>
+
+    <div class="code-box">
 &lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
 &lt;head&gt;
 &lt;title&gt;Trillium Media Design&lt;/title&gt;
 &lt;meta charset="utf-8"&gt;
 &lt;style&gt;
-/* HW3 Question 1 solution will be added here */
+body {
+    background-color: #0066CC;
+    color: #FFFFFF;
+}
+
+header {
+    font-family: Arial, sans-serif;
+}
 &lt;/style&gt;
 &lt;/head&gt;
 &lt;body&gt;
 &lt;header&gt;&lt;h1&gt;Trillium Media Design&lt;/h1&gt;&lt;/header&gt;
-&lt;p&gt;Content goes here...&lt;/p&gt;
+&lt;p&gt;Our professional staff takes pride in its working relationship with our clients by offering personalized services that listen to their needs, develop their target areas, and incorporate these items into a website that works.&lt;/p&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-            </div>
+    </div>
 
-            <h3>2. Find the Error</h3>
-            <p>
-                <span class="label">Task:</span>
-                Explain why the given page does not display properly in a browser.
-            </p>
+    <h3>2. Find the Error</h3>
 
-            <p>
-                <span class="label">Solution:</span>
-                The answer for this section will also be added in the same visual format, including
-                a clear explanation and the corrected code block.
-            </p>
+    <p>
+        <span class="label">Task:</span>
+        Explain why the page corresponding to the given code does not display properly in a browser.
+    </p>
 
-            <div class="code-box">
+    <p>
+        <span class="label">Solution:</span>
+        The error is located at the end of the CSS block. The code opens a second
+        <code>&lt;style&gt;</code> tag instead of closing the first one with
+        <code>&lt;/style&gt;</code>. Because of this mistake, the browser cannot correctly
+        separate the CSS from the HTML, which causes the page to display improperly.
+    </p>
+
+    <div class="code-box">
 &lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
 &lt;head&gt;
 &lt;title&gt;Trillium Media Design&lt;/title&gt;
 &lt;meta charset="utf-8"&gt;
 &lt;style&gt;
-/* HW3 Question 2 corrected code will be added here */
+body {
+    background-color: #000066;
+    color: #CCCCCC;
+    font-family: Arial, sans-serif;
+    font-size: 1.2em;
+}
 &lt;/style&gt;
 &lt;/head&gt;
 &lt;body&gt;
 &lt;header&gt;&lt;h1&gt;Trillium Media Design&lt;/h1&gt;&lt;/header&gt;
 &lt;main&gt;
-&lt;p&gt;Content goes here...&lt;/p&gt;
+    &lt;p&gt;Our professional staff takes pride in its working relationship with our clients by offering personalized services that listen to their needs, develop their target areas, and incorporate these items into a website that works.&lt;/p&gt;
 &lt;/main&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-            </div>
-
-            <p class="small-note">
-                HW3 will be updated after the final answers are prepared.
-            </p>
-        </div>
-
-        <a class="back-btn" href="index.html">← Back to Profile Page</a>
     </div>
-</body>
-</html>
+</div>
+
+<div style="text-align:center; margin-top:30px;">
+    <a href="index.html" style="
+        display:inline-block;
+        background:#2d3748;
+        color:white;
+        padding:12px 20px;
+        border-radius:8px;
+        text-decoration:none;
+        font-weight:600;">
+        ← Back to Profile Page
+    </a>
+</div>
